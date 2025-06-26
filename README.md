@@ -35,19 +35,13 @@
 - Only test with `uncased` model
 - ALBERT xxlarge sometimes can't converge well for slot prediction.
 
-|           |                  | Intent acc (%) | Slot F1 (%) | Sentence acc (%) |
-| --------- | ---------------- | -------------- | ----------- | ---------------- |
-| **Snips** | BERT             | **99.14**      | 96.90       | 93.00            |
-|           | BERT + CRF       | 98.57          | **97.24**   | **93.57**        |
-|           | DistilBERT       | 98.00          | 96.10       | 91.00            |
-|           | DistilBERT + CRF | 98.57          | 96.46       | 91.85            |
-|           | ALBERT           | 98.43          | 97.16       | 93.29            |
-|           | ALBERT + CRF     | 99.00          | 96.55       | 92.57            |
-| **ATIS**  | BERT             | 97.87          | 95.59       | 88.24            |
-|           | BERT + CRF       | **97.98**      | 95.93       | 88.58            |
-|           | DistilBERT       | 97.76          | 95.50       | 87.68            |
-|           | DistilBERT + CRF | 97.65          | 95.89       | 88.24            |
-|           | ALBERT           | 97.64          | 95.78       | 88.13            |
-|           | ALBERT + CRF     | 97.42          | **96.32**   | **88.69**        |
+|           |                  | Intent acc (%) | Slot F1 (%) |
+| --------- | ---------------- | -------------- | ----------- |
+| **Snips** | BERT             | **99.14**      | 96.90       |
+|           | BERT + CRF       | 98.57          | **97.24**   |
+
+| **ATIS**  | BERT             | 97.87          | 95.59       |
+|           | BERT + CRF       | **97.98**      | 95.93       | 
+
 
 
