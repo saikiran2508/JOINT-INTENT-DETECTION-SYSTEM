@@ -1,6 +1,5 @@
-# JointBERT
+# JOINT INTENT DETECTION SYSTEM
 
-(Unofficial) Pytorch implementation of `JointBERT`: [BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/abs/1902.10909)
 
 ## Model Architecture
 
@@ -10,7 +9,6 @@
 
 - Predict `intent` and `slot` at the same time from **one BERT model** (=Joint model)
 - total_loss = intent_loss + coef \* slot_loss (Change coef with `--slot_loss_coef` option)
-- **If you want to use CRF layer, give `--use_crf` option**
 
 ## Dependencies
 
